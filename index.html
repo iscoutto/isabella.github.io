@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isabella - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Isabella Couto" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Isabella Couto">Isabella Couto</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contatos-list">
+
+          <li class="contato-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contato-info">
+              <p class="contato-title">Email</p>
+
+              <a href="mailto:isacoutosoares@gmail.com" class="contato-link">isacoutosoares@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contato-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contato-info">
+              <p class="contato-title">Telefone</p>
+
+              <a href="tel:+5511944931655" class="contato-link">+55 (11) 94493-1655</a>
+            </div>
+
+          </li>
+
+          <li class="contato-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contato-info">
+              <p class="contato-title">Aniversário</p>
+
+              <time datetime="1982-06-23">Abril 20, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contato-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contato-info">
+              <p class="contato-title">Localização</p>
+
+              <address>São Paulo, BR</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/iscoutto" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>  
+          
+          <li class="social-item">
+            <a href="https://linkedin.com/in/isabellacouto" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li> 
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Curriculo</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #SOBRE
+      -->
+
+      <article class="sobre  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre</h2>
+        </header>
+
+        <section class="sobre-text">
+          <p>
+            Sou Engenheira de Software Jr no Itaú Unibanco antuando em soluções com AWS Cloud. Também sou estudante de Engenharia da Computação na Fundação Salvador Arena.
+
+          </p>
+
+          <p>
+            Busco constantemente novos desafios e aprendizados, mas fora do trabalho também amo fotografia, ler livros e assistir doramas. Estou sempre aberta a novas conexões e oportunidades de colaboração :)
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que eu faço?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="arquitetura icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Arquitetura</h4>
+
+                <p class="service-item-text">
+                  Desenvolvo arquiteturas de software escaláveis e resilientes para atender às demandas do mercado atual. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Back-end development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-end development</h4>
+
+                <p class="service-item-text">
+                  Crio soluções eficientes no back-end, impulsionando o sucesso dos projetos.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-sre.svg" alt="sre icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Observabilidade</h4>
+
+                <p class="service-item-text">
+                  Aplico técnicas de observabilidade e análise de dados para garantir a precisão dos resultados desejados.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-devops.svg" alt="devops icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps</h4>
+
+                <p class="service-item-text">
+                  Utilizo a integração de Desenvolvimento e Operações (DevOps) ao implementar soluções de Inteligência Artificial (IA).
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #CURRICULO
+      -->
+      
+      <article class="curriculo" data-page="curriculo">
+
+        <header>
+          <h2 class="h2 article-title">Curriculo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formação Acadêmica</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bacharelado em Engenharia da Computação</h4>
+
+              <span>Jan.2021 — Dez.2025</span>
+
+              <p class="timeline-text">
+                A Faculdade Engenheiro Salvador Arena é uma instituição de ensino superior privada totalmente gratuita, comprometida com a transformação social através da educação.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kumon</h4>
+
+              <span>Jan.2017 — Jun.2019</span>
+
+              <p class="timeline-text">
+                Kumon é uma metodologia que visa incentivar a autonomia nos estudos, buscando fortalecer o potencial de aprendizado de cada um. 
+                Por meio de um processo de aprendizagem planejado e individualizado, o aluno se torna confiante e capaz de enfrentar sozinho o desafio da conquista do conhecimento.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Engenheira de Software Jr</h4>
+              <span>Itaú Unibanco</span>
+              <span>Jan.2023 — Presente</span>
+
+              <p class="timeline-text">
+                Desenvolvimento de projetos de tratamento de incidentes de negócios, com ênfase em Machine Learning e Inteligência Artificial. Utilizando Python e Terraform para gerenciar recursos na AWS Lambda e desenvolvendo APIs conforme a especificação OpenAPI 3.0. Além disso, emprega serviços como API Gateway, SQS, Lambda, DynamoDB e ServiceNow. Possui conhecimento em integração e entrega contínuas (CI/CD).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Estagiária de Desenvolvimento</h4>
+              <span>Itaú Unibanco</span>
+              <span>Jul.2021 — Jan.2023</span>
+
+              <p class="timeline-text">
+                Utilização de metodologias ágeis e mentalidade DevOps para desenvolver e organizar projetos. Desenvolvimento de automações em PowerShell, Python e Terraform na infraestrutura da AWS Cloud, tratativa de eventos e incidentes com a ServiceNow e elaboração de documentações técnicas.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Analista de Atendimento Bilíngue</h4>
+              <span>Atento</span>
+              <span>Out.2020 — Jan.2021</span>
+
+              <p class="timeline-text">
+                Implantação da plataforma de streaming Disney+ realizando a construção da base de clientes do Brasil. Suporte ao cliente nos dois idiomas: Português e Inglês (Brasil, Nova Zelândia, Canadá e EUA). Realização de um workshop para colaboradores da Guatemala e diretoria da América Latina (ministrado em inglês).
+              </p>
+
+            </li>
+
+          </ol>
+
+          <button class="filter-select" data-select>
+
+          </button>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
